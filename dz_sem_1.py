@@ -24,7 +24,7 @@
 # - A (7,-5); B (1,-1) -> 7,21
 
 
-# Задача 1
+# #Задача 1
 # def day_of_the_week():
 #     number = int(input("Введите порядковый номер дня недели: "))
 #     if number == 6 or number == 7:
@@ -36,9 +36,9 @@
 
 # day_of_the_week()
 
-# Задача 2
+# #Задача 2
 
-# Задача 3
+# #Задача 3
 # def number_of_quarter():
 #     cordinate_x = int(input("Введите координату X: "))
 #     cordinate_y = int(input("Введите координату Y: "))
@@ -61,7 +61,7 @@
 
 # number_of_quarter()
 
-# Задача 4
+# #Задача 4
 
 # def number_of_cordinate():
 #     quarter_number = int(input("Введите номер четверти: "))
@@ -76,7 +76,7 @@
     
 # number_of_cordinate()
 
-#Задача 5
+# #Задача 5
 
 # def distance_between_points():
 #     X_1 = int(input("Введите X координату 1ой точки: "))
