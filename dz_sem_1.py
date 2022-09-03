@@ -25,29 +25,54 @@
 # Домашнее задание присылать в виде ссылки на гит-репозиторий.
 # Да прибудет с вами сила!
 
-#Задача 1
+# Задача 1
 # def day_of_the_week():
 #     number = int(input("Введите порядковый номер дня недели: "))
 #     if number == 6 or number == 7:
 #         print("Да")
-#     elif number >= 8: print("Нет такого дня недели")
-#     else: print("Нет")
+#     elif number >= 8:
+#         print("Нет такого дня недели")
+#     else:
+#         print("Нет")
 
 # day_of_the_week()
 
-#Задача 2
+# Задача 2
 
-#Задача 3
-# def number_of_cordinate():
+# Задача 3
+# def number_of_quarter():
 #     cordinate_x = int(input("Введите координату X: "))
 #     cordinate_y = int(input("Введите координату Y: "))
-#     if cordinate_x > 0 and cordinate_y > 0: print("1я четверть")
-#     elif cordinate_x < 0 and cordinate_y > 0: print("2я четверть")
-#     elif cordinate_x < 0 and cordinate_y < 0: print("3я четверть")
-#     elif cordinate_x > 0 and cordinate_y < 0: print("4я четверть")
-#     elif cordinate_x == 0 and cordinate_y < 0: print("Точка лежит на плоскости Y, между 3ей и 4ой плоскостями")
-#     elif cordinate_x == 0 and cordinate_y > 0: print("Точка лежит на плоскости Y, между 1ой и 2ой плоскостями")
-#     elif cordinate_x > 0 and cordinate_y == 0: print("Точка лежит на плоскости X, между 1ой и 4ой плоскостями")
-#     elif cordinate_x < 0 and cordinate_y == 0: print("Точка лежит на плоскости X, между 2ой и 3ей плоскостями")
+#     if cordinate_x > 0 and cordinate_y > 0:
+#         print("1я четверть")
+#     elif cordinate_x < 0 and cordinate_y > 0:
+#         print("2я четверть")
+#     elif cordinate_x < 0 and cordinate_y < 0:
+#         print("3я четверть")
+#     elif cordinate_x > 0 and cordinate_y < 0:
+#         print("4я четверть")
+#     elif cordinate_x == 0 and cordinate_y < 0:
+#         print("Точка лежит на плоскости Y, между 3ей и 4ой плоскостями")
+#     elif cordinate_x == 0 and cordinate_y > 0:
+#         print("Точка лежит на плоскости Y, между 1ой и 2ой плоскостями")
+#     elif cordinate_x > 0 and cordinate_y == 0:
+#         print("Точка лежит на плоскости X, между 1ой и 4ой плоскостями")
+#     elif cordinate_x < 0 and cordinate_y == 0:
+#         print("Точка лежит на плоскости X, между 2ой и 3ей плоскостями")
 
+# number_of_quarter()
+
+# Задача 4
+
+# def number_of_cordinate():
+#     quarter_number = int(input("Введите номер четверти: "))
+#     if quarter_number == 1:
+#         print("X∈[0; ∞)    Y∈[0; ∞)")
+#     elif quarter_number == 2:
+#         print("X∈[0; -∞)    Y∈[0; ∞)")
+#     elif quarter_number == 3:
+#         print("X∈[0; -∞)    Y∈[0; -∞)")
+#     elif quarter_number == 4:
+#         print("X∈[0; ∞)    Y∈[0; -∞)")
+    
 # number_of_cordinate()
