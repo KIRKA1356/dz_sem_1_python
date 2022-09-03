@@ -10,17 +10,17 @@
 
 # day_of_the_week()
 
-#Задача 2
+# #Задача 2
 
-def truth_table():
-    print("X          Y            Z        Result")
-    print("--------------------------------")
-    for x in (True, False):
-        for y in (True, False):
-            for z in (True, False):
-                if (not (x or y or z) == (not x and not y and not z)) == True:
-                    print(f'{x}       {y}        {z}       True')
-truth_table()
+# def truth_table():
+#     print("X          Y            Z        Result")
+#     print("--------------------------------")
+#     for x in (True, False):
+#         for y in (True, False):
+#             for z in (True, False):
+#                 if (not (x or y or z) == (not x and not y and not z)) == True:
+#                     print(f'{x}       {y}        {z}       True')
+# truth_table()
 
 
 # #Задача 3
